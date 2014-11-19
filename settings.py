@@ -1,5 +1,5 @@
 """
-Django settings for glidewithus project.
+Django settings for most of my django projects.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.7/topics/settings/
@@ -37,13 +37,6 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'sorl.thumbnail',
-    'glidewithus.landing',
-    'glidewithus.profiles',
-    'glidewithus.landing.registration',
-    'glidewithus.dashboard',
-    'glidewithus.marketplace',
-    'glidewithus.booking',
-    'glidewithus.messaging',
     'django_ajax',
 )
 
